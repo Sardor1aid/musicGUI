@@ -1,0 +1,15 @@
+pyrcc5 -o file.py file.qrc
+
+pyuic5 main.ui -o main.py
+pyuic5 -x main.ui -o main.py
+pyuic5 informations.ui -o informations.py
+
+
+python -m PyInstaller --noconsole --onefile main.py
+
+
+--icon=path/to/your/icon.ico
+
+('C:\\Users\\Admin\\Desktop\\converterGUI\\images\\gnivc2.png', 'images')
+
+python -m PyInstaller --noconsole --icon=C:\Users\Admin\Desktop\converterGUI\images\iconLogo3.ico --onefile main.py

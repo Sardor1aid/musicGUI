@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>590</width>
+    <height>752</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QListWidget {
+    background-color: rgb(0, 58, 55);
+    color: rgb(171, 213, 213);
+    border-radius: 15px; /* Задайте радиус, чтобы сделать края овальными */
+    padding: 2px;
+    border: 5px solid rgb(21, 84, 60);
+}
+
+
+/* Стиль вертикального ползунка */
+QScrollBar:vertical {
+    border: none;
+    background: rgb(21, 84, 60);
+    width: 15px;
+    margin: 20px 0 20px 0;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical {
+    background: rgb(171, 213, 213);
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical {
+    border: none;
+    background: rgb(21, 84, 60);
+    height: 20px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+QScrollBar::sub-line:vertical {
+    border: none;
+    background: rgb(21, 84, 60);
+    height: 20px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* Убираем стрелки по краям ползунков */
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical,
+QScrollBar::left-arrow:horizontal, QScrollBar::right-arrow:horizontal {
+    background: none;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal,
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">#centralwidget{background-color: rgb(0, 58, 55);}</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_6">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="styleSheet">
+       <string notr="true">#widget{background-color: rgb(0, 58, 55);}</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QWidget" name="widget_2" native="true">
+         <property name="styleSheet">
+          <string notr="true">#widget_2{background-color: rgb(158, 197, 198);
+
+border-radius: 15px; /* Задайте радиус, чтобы сделать края овальными */
+padding: 2px;}</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QWidget" name="widget_3" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>524</width>
+              <height>275</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item>
+              <widget class="QListWidget" name="listWidget">
+               <property name="font">
+                <font>
+                 <family>MV Boli</family>
+                 <pointsize>24</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QListWidget {
+    background-color: rgb(0, 58, 55);
+    color: rgb(171, 213, 213);
+    border-radius: 15px; /* Задайте радиус, чтобы сделать края овальными */
+    padding: 2px;
+    border: 5px solid rgb(21, 84, 60);
+}
+
+
+/* Стиль вертикального ползунка */
+QScrollBar:vertical {
+    border: none;
+    background: rgb(21, 84, 60);
+    width: 15px;
+    margin: 20px 0 20px 0;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical {
+    background: rgb(171, 213, 213);
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical {
+    border: none;
+    background: rgb(21, 84, 60);
+    height: 20px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+QScrollBar::sub-line:vertical {
+    border: none;
+    background: rgb(21, 84, 60);
+    height: 20px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* Убираем стрелки по краям ползунков */
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical,
+QScrollBar::left-arrow:horizontal, QScrollBar::right-arrow:horizontal {
+    background: none;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal,
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}</string>
+               </property>
+               <item>
+                <property name="text">
+                 <string>ыцвву</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ывысв</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ывывыыв</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ввавыа</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>вывампа</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ывыаава</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ввыаыпап</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>ааип</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="font">
+             <font>
+              <pointsize>9</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:rgb(0, 58, 55);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSlider" name="horizontalSlider">
+            <property name="styleSheet">
+             <string notr="true">QSlider::groove:horizontal {
+    border: 1px solid #999999;
+    height: 8px;
+    background: rgb(21, 84, 60);;
+    margin: 2px 0;
+    border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+    background: rgb(158, 197, 198);
+    border: 1px solid #5c5c5c;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    margin: -5px 0; /* handle is placed by default on the contents rect of the groove. Expand outside the groove */
+}
+
+QSlider::add-page:horizontal {
+    background: #d0d0d0;
+}
+
+QSlider::sub-page:horizontal {
+    background: rgb(21, 84, 60);
+}
+
+QSlider::handle:horizontal:hover {
+    background: #b1b1b1;
+    border: 1px solid #3a9ef4;
+}
+
+QSlider::groove:horizontal:hover {
+    background: #c0c0c0;
+}
+
+QSlider::sub-page:horizontal:disabled {
+    background: #bbbbbb;
+    border-color: #999999;
+}
+
+QSlider::add-page:horizontal:disabled {
+    background: #e0e0e0;
+    border-color: #999999;
+}
+
+QSlider::handle:horizontal:disabled {
+    background: #cccccc;
+    border: 1px solid #999999;
+}</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QWidget" name="widget_4" native="true">
+            <property name="styleSheet">
+             <string notr="true">#widget_4{background-color: rgb(158, 197, 198);
+
+border-radius: 15px; /* Задайте радиус, чтобы сделать края овальными */
+padding: 2px;
+border: 4px solid rgb(0, 58, 55);
+}</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout">
+               <property name="spacing">
+                <number>39</number>
+               </property>
+               <property name="topMargin">
+                <number>4</number>
+               </property>
+               <property name="bottomMargin">
+                <number>7</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="pushButton">
+                 <property name="minimumSize">
+                  <size>
+                   <width>500</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>MV Boli</family>
+                   <pointsize>24</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">#pushButton {
+    background-color: rgb(21, 84, 60);
+
+    color: rgb(171, 213, 213);
+border-radius: 15px; /* Задайте радиус, чтобы сделать края овальными */
+padding: 2px;}
+
+
+#pushButton:hover{
+background-color: rgb(24, 100, 71);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>PLAY</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>500</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>MV Boli</family>
+                   <pointsize>24</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">#pushButton_2 {
+    background-color: rgb(21, 84, 60);
+
+    color: rgb(171, 213, 213);
+border-radius: 15px; /* Задайте радиус, чтобы сделать края овальными */
+padding: 2px;}
+
+
+#pushButton:hover{
+background-color: rgb(24, 100, 71);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>STOP</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_3">
+                 <property name="minimumSize">
+                  <size>
+                   <width>500</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>MV Boli</family>
+                   <pointsize>24</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">#pushButton_3 {
+    background-color: rgb(21, 84, 60);
+
+    color: rgb(171, 213, 213);
+border-radius: 15px; /* Задайте радиус, чтобы сделать края овальными */
+padding: 2px;}
+
+
+#pushButton:hover{
+background-color: rgb(24, 100, 71);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>ADD MUSIC</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_4">
+                 <property name="minimumSize">
+                  <size>
+                   <width>500</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>MV Boli</family>
+                   <pointsize>24</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">#pushButton_4 {
+    background-color: rgb(21, 84, 60);
+
+    color: rgb(171, 213, 213);
+border-radius: 15px; /* Задайте радиус, чтобы сделать края овальными */
+padding: 2px;}
+
+
+#pushButton:hover{
+background-color: rgb(24, 100, 71);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>DELETE MUSIC</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
